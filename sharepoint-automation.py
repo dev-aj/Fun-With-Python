@@ -50,7 +50,6 @@ while start <= end:
     url = c.value
     comment = ''
     try:
-        #url = 'https://unilever.sharepoint.com/:f:/s/RPACoE/EvPMeSOqZ49BgyO4CTOvNWYB5yBk8VNzWVbMsaMNoRwicA?e=Y7RJF2'
         browser.get(url)
         wait = WebDriverWait(browser, 500);#5 sec Wait to scan the QR manually
 
